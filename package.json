@@ -1,0 +1,15 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Christopher McGale <mcga6260@mylaurier.ca>",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "description": "",
+  "dependencies": {
+    "postman-request": "^2.88.1-postman.30"
+  }
+}
