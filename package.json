@@ -1,15 +1,21 @@
 {
-  "name": "weather-app",
+  "name": "web-server",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
-  "author": "Christopher McGale <mcga6260@mylaurier.ca>",
-  "license": "MIT",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node web-server/src/app.js",
+    "dev": "nodemon web-server/src/app.js -e js,hbs"
   },
   "keywords": [],
-  "description": "",
+  "author": "",
+  "license": "ISC",
   "dependencies": {
+    "express": "^4.16.4",
+    "hbs": "^4.1.2",
     "postman-request": "^2.88.1-postman.30"
+  },
+  "devDependencies": {
+    "nodemon": "^1.2.0"
   }
 }
